@@ -18,3 +18,4 @@ Reference Courses :
 Cluster Analysis and Unsupervised Machine Learning in Python
 Unsupervised Machine Learning Hidden Markov Models in Python
 Easy Natural Language Processing (NLP) in Python
+Bayesian Machine Learning in Python_A-B testing
