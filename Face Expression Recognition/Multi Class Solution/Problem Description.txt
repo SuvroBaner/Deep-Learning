@@ -1,0 +1,18 @@
+a) It is 48 x 48 grayscale images of faces (pixel intensities)
+i.e. [-row1 -- row2 --row3 ----] => (1, 2304) 
+b) The faces are centered and approximately same size
+c) Each face shows an emotion and our job is to classify these emotions-
+
+0 = Angry
+1 = Disgust
+2 = Fear
+3 = Happy
+4 = Sad
+5 = Surprise
+6 = Neutral
+
+It's a three column csv file: label, pixels (space-centered), train/test
+
+Note: Images have pixel intensities 0... 255 (8 bit integers have 2^8 = 256 different possible values). We need to normalize these to be from 0...1
+
+We want this narrow range because activation functions of neural networks like sigmoid / tanh are most active in the -1 to +1 range.
